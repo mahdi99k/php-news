@@ -1,0 +1,19 @@
+body {
+    /*background-color: #39b5ff;*/
+    /*background: linear-gradient(to right, #55b7ff, #1c78e5);  !* 1)to side     2)colorOne     3)colorTwo  *!*/
+    background: linear-gradient(to right, #66bfff, #1c78e5);  /* 1)to side     2)colorOne     3)colorTwo  */
+}
+
+section.row {
+    height: 90vh;
+}
+
+section.row > section.col-6 {
+    border-radius: 3px;
+    box-shadow: 8px 5px 5px #1c85f2, 5px -5px 5px #1f8bf7;
+}
+
+section.row > section.col-6:hover {
+    cursor: pointer;
+    filter: contrast(135%); /* بالای صد میش پر رنگ تر و  زیر صد رنگ کمرنگ تر و خاکستری تر */
+}

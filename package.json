@@ -1,0 +1,19 @@
+{
+  "name": "php8-company",
+  "version": "1.0.0",
+  "description": "make project company",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mahdi99k",
+  "license": "ISC",
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-decoupled-document": "^31.0.0",
+    "bootstrap": "^4.6.0",
+    "ckeditor4": "github:ckeditor/ckeditor4-releases#full/latest",
+    "jquery": "^3.6.0",
+    "jquery-toast-plugin": "^1.3.2",
+    "swiper": "^7.2.0"
+  }
+}

@@ -1,0 +1,36 @@
+/*----------    style css all   ----------*/
+*, h1, h2, h3, h4, h5, h6 {
+    font-family: "IRANSans Medium";
+    text-decoration: none;
+}
+
+/*----------    style css menu (nav link)   ----------*/
+.nav-link:hover {
+    color: gold !important;
+    /*color: lightblue !important;*/
+}
+
+
+/*----------    style css form   ----------*/
+.form_cus {
+    box-shadow: 12px 8px 17px #aaaaaa, -12px 8px 17px lightgray;
+}
+
+.form_cus:hover {
+    cursor: pointer;
+    filter: contrast(120%); /* بالای صد میش پر رنگ تر و  زیر صد رنگ کمرنگ تر و خاکستری تر */
+}
+
+.input_cu {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: whitesmoke;
+    direction: rtl;
+}
+
+input, textarea, select, button::placeholder {
+    font-size: 13px !important;
+}
+
+
+
